@@ -1,0 +1,60 @@
+history
+    1  echo $0
+    2  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    3  sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    4  sudo apt-get install -y curl git
+    5  sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    6  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+    7  git clone https://github.com/ibnYusrat/my-linux-setup/tree/master/powerline-fonts
+    8  git clone https://github.com/ibnYusrat/my-linux-setup/tree/master
+    9  git clone https://github.com/ibnYusrat/my-linux-setup/
+   10  ls
+   11  cd my-linux-setup
+   12  ls
+   13  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+   14  sudo nano ~/.zshrc
+   15  exit
+   16  ls
+   17  cd Desktop
+   18  pwd
+   19  ls
+   20  cd my-linux-setup
+   21  echo $XDG_SESSION_TYPE
+   22  exho $env
+   23  echo $env
+   24  echo env
+   25  echo $WAYLAND_DISPLAY
+   26  env
+   27  env | grep -i -e x11 -e wayland
+   28  loginctl list-session
+   29  loginctl list-sessions
+   30  loginctl show-session 2
+   31  ps -aux | grep tty
+   32  ps -e | grep tty
+   33  ps -e 
+   34  ps -e | grep tty
+   35  ip a
+   36  sudo apt-get install openssh-server
+   37  sudo systemctl sshd start
+   38  sudo systemctl status sshd
+   39  sudo systemctl status ssh
+   40  sudo systemctl start ssh
+   41  sudo systemctl status ssh
+   42  sudo systemctl enable ssh
+   43  sudo systemctl status ssh
+   44  sudo poweroff now
+   45  sudo shutdown now
+   46  sudo halt now
+   47  sudo shutdown now
+   48  ip a
+   49  ip route
+   50  ip a
+   51  ls
+   52  ./autorun.sh
+   53  sudo reboot
+❯ ls
+my-linux-setup
+❯ pwd
+/home/vboxuser/Desktop
+
+╭─    ~/Desktop            
